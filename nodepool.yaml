@@ -14,10 +14,10 @@ providers:
             labels: ubuntu-xenial
             host-key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPUSuazuMKhyPoWIeKlG0AfwPDWGPTpFarUCZZNYqnC+"
             username: zuul
-          - name: 10.240.24.138
-            labels: ubuntu-xenial
-            host-key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOczWuMmM5HLVqurr5+Ejd2wNmfERDYj21ZBPonawvTu"
-            username: zuul
+          #- name: 10.240.24.138
+          #  labels: ubuntu-xenial
+          #  host-key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOczWuMmM5HLVqurr5+Ejd2wNmfERDYj21ZBPonawvTu"
+          #  username: zuul
           - name: 10.240.24.144
             labels: ubuntu-xenial
             host-key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMv94BIJkc+h4O9j9F1BeMc383wwjf+DpHb7Ur/IzcJV"
